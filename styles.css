@@ -1,5 +1,41 @@
+/* Cascading Style Sheets */
+
 body {
     margin: 0;
     background: #30D5C8;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }   
+
+h1, h2, li {
+    color: #555;
+}
+
+a {
+    color: green;
+}
+
+/* Class */
+/* NOTE: You can have multiple Class Tags; typically slower than ID tags. */
+.secondary {
+    background: none;
+    color: #777
+}
+
+/* ID */
+/* NOTE: You can only have one ID Tag; typically faster than Classe Tags. */
+#special {
+    background: red;
+    color: white; 
+}
+
+p {
+    background: #666;
+    color: white;
+    padding: 10px;
+}
+
+/*  Padding: Notes on Spacing
+padding: Full;
+padding: Top/Bottom Left/Right;
+padding: Top Right Bottom Left;
